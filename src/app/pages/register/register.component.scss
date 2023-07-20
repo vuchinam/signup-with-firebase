@@ -1,0 +1,68 @@
+.register-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .margin-bottom {
+    margin-bottom: 16px;
+  }
+  .title {
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  .title-intro {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 26px;
+  }
+  .forgot-password {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0152d5;
+    text-align: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    &:hover {
+      color: red;
+    }
+  }
+  .alternative {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 35px;
+    color: rgba(0, 0, 0, 0.5);
+
+    span {
+      color: #0152d5;
+      cursor: pointer;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+  .or-line-divider {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-top: 25px;
+    p {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      background: white;
+      width: 40px;
+      text-align: center;
+    }
+  }
+  .google-card {
+    margin-top: 40px;
+  }
+  .register-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+}
